@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+}
+
+.app {
+  background-color: #fafafa ;
+
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+}
+
+.app-headerImage {
+  object-fit: contain;
+}
+
+.app-headerImg {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__signup {
+  display: flex; 
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .imported-ember-img {
+    object-fit: contain;
+  }
+ 
+}
+
+
+
